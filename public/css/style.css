@@ -1,0 +1,66 @@
+body{
+ color: black;
+}
+
+img{
+    width: 100%;
+}
+
+.home img{
+    border-radius: 50%;
+}
+
+.home h1{
+    font-size: 6em;
+    text-align: center;
+}
+
+.home a{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px ;
+    max-width: 175px;
+}
+.popinoelperro{
+    text-decoration: none;
+}
+.aboutpage{
+    height: 100%;
+}
+
+.aboutpage img{
+    object-fit: cover;
+    max-height: 400px;
+}
+
+.works img{
+    max-height: 300px;
+    object-fit: cover;
+}
+
+footer{
+    background-color: rgb(57, 33, 190);
+    text-align:center;
+    color: white;    
+}
+
+footer p{
+    padding-top: 15px;
+}
+
+.fade-in{
+    opacity:1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    -o-animation-timing-function: ease-in;
+    animation-duration:2s ;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
